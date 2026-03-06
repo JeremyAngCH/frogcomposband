@@ -3490,11 +3490,13 @@ void close_game(void)
         /* Handle retirement */
         if ((p_ptr->total_winner) && ((strpos("Ripe Old Age", p_ptr->died_from)) || (strpos("Seppuku", p_ptr->died_from)))) kingly();
 
+#if 0
         /* Save memories */
         if (!cheat_save || get_check("Save death? "))
         {
             if (!save_player()) msg_print("death save failed!");
         }
+#endif
 
         /* You are dead */
         print_tomb();
