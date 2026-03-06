@@ -3518,8 +3518,10 @@ void close_game(void)
     /* Still alive */
     else
     {
+#if 0
         /* Save the game */
         do_cmd_save_game(FALSE);
+#endif
     }
 
     if (check_score())

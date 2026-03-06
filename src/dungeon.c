@@ -4388,7 +4388,7 @@ static void _dispatch_command(int old_now_turn)
             break;
         }
 
-        /* Save and quit */
+        /* Quit only */
         case KTRL('X'):
         case SPECIAL_KEY_QUIT:
         {

@@ -3371,7 +3371,7 @@ menu_naiyou menu_info[10][10] =
     },
 
     {
-        {"Save and quit(^x)", KTRL('X'), TRUE},
+        {"Quit(^x)", KTRL('X'), TRUE},
         {"Save(^s)", KTRL('S'), TRUE},
         {"Help(?)", '?', TRUE},
         {"Redraw(^r)", KTRL('R'), TRUE},

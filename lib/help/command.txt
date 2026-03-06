@@ -68,7 +68,7 @@ Press <color:keypress>?</color> for commands to use in the help interface itself
    '  Playback recorded command           <color:D>^U  (unused)</color>
    "  Record command                      ^V  Recenter Viewport
    ,  Stay still                          ^W  (special - wizard mode)
-   <color:y><  Go up staircase/Toggle global map  </color> <color:y>^X  Save and quit</color>
+   <color:y><  Go up staircase/Toggle global map  </color> <color:y>^X  Quit</color>
    <color:y>.  Run</color>                                 ^Y  (special - wizard mode)
    <color:y>>  Go down staircase/Enter normal map </color> ^Z  (special - borg command)
    \  (special - bypass keymap)            <color:D>|  (unused)</color>
@@ -132,7 +132,7 @@ Press <color:keypress>?</color> for commands to use in the help interface itself
    '  Playback recorded command           ^U  (tunnel - north east)
    "  Record command                      ^V  Recenter Viewport
    ,  Run                                 ^W  (special - wizard mode)
-   <color:y><  Go up staircase/Toggle global map</color>   <color:y>^X  Save and quit</color>
+   <color:y><  Go up staircase/Toggle global map</color>   <color:y>^X  Quit</color>
    .  Stay still                          ^Y  (tunnel - north west)
    <color:y>>  Go down staircase/Enter normal map</color>  <color:D>^Z  (unused)</color>
    \  (special - bypass keymap)            <color:D>|  (unused)</color>

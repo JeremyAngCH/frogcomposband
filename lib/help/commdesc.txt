@@ -342,7 +342,7 @@ This command shows you current date and time in the game, usually with a short c
 
 <topic:SaveExit><style:heading>Saving and Exiting Commands</style>
 
-  <indent><color:U>Save and Quit (<color:keypress>^X</color>)</color>
+  <indent><color:U>Quit (<color:keypress>^X</color>)</color>
 To save your game so that you can return to it later, use this command. Save files will also be generated (hopefully) if the game crashes due to a system error. After you die, you can use your savefile to play again with the same options and lore.</indent>
 
   <indent><color:U>Save (<color:keypress>^S</color>)</color>
@@ -498,8 +498,8 @@ If you have pets, use this command to give orders or toggle pet options. See <li
   Display Game Time          <color:keypress>^T                '</color>
 
 <color:U>Save/Quit Commands         Original        Roguelike</color>
-  Save and Quit              <color:keypress>^X</color>
-  Save                       <color:keypress>^S</color>
+  Quit                        <color:keypress>^X</color>
+  Save                        <color:keypress>^S</color>
   Quit/Commit Suicide         <color:keypress>Q</color>
 
 <color:U>User Preference Commands   Original        Roguelike</color>
