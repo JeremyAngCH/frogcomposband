@@ -15,6 +15,9 @@
   For example, you might run (Ubuntu or Mint):
     $ sudo apt-get install autoconf gcc libc6-dev libncursesw5-dev libx11-dev
 
+  Build for ncurses: 
+  ./configure --disable-x11 --enable-curses
+
   From the root of the source archive:
     $ sh autogen.sh
     $ ./configure
